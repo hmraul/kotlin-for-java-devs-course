@@ -10,5 +10,5 @@ fun recognize(c: Char) = when (c) {
     else -> "Another thing"
 }
 
-println("Kotlin" in "Java".."Scala") // true
-println("Kotlin" in setOf("Java", "Scala")) // false
+//println("Kotlin" in "Java".."Scala") // true
+//println("Kotlin" in setOf("Java", "Scala")) // false
