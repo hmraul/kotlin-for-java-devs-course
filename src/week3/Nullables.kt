@@ -17,5 +17,9 @@ fun Some(): String {
         return "Comparing direcly"
     }
 
+    if ((canBeNull?.length ?: 0) > 0 ) {
+        return "Another king of comparation"
+    }
+
     return "End Nullables"
 }
