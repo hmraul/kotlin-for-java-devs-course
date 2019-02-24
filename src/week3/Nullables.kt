@@ -21,5 +21,9 @@ fun Some(): String {
         return "Another king of comparation"
     }
 
+    if (neverNull!!.length > 100) {
+        return "Double !! throws NPE if it's null"
+    }
+
     return "End Nullables"
 }
