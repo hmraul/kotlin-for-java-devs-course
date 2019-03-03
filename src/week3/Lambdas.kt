@@ -26,6 +26,30 @@ fun functionWithDestructuringDeclaration() {
     map.mapValues { (key, value) -> "$key -> $value" }
     //Only use of value
     map.mapValues { (_, value) -> "$value" }
-
-
 }
+
+// Common operations on collections
+// filter
+// map
+// any (all, none)
+// find
+// first
+// firstOrNull
+// count
+// partition
+//      listOf(1, 2, 3, 4).partition {it % 2 == 0} --> (2, 4) and (1, 3)
+//      Return two the collection split in two parts
+// groupBy
+// associateBy
+//      (Alice, 31)
+//      (Bob, 29)
+//      (Carol, 31)
+//      mapOf((Alice, 31), (Bob, 29), (Carol, 31))
+//      .associateBy {it.name} --> (Alice, 31), (Bob, 29), (Carol, 31)
+// -----------------------------------------------------
+//      mapOf((Alice, 31), (Bob, 29), (Carol, 31))
+//      .associateBy {it.age} --> *remove duplicates*( (Bob, 29), (Carol, 31) )
+// zip
+// flatMap
+
+
