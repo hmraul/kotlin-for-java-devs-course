@@ -9,7 +9,7 @@ fun duplicateNonZero(list : List<Int>): List<Int> {
     }
 }
 
-println(duplicateNonZero(list))
+// code: println(duplicateNonZero(list))
 
 // For the example above, it will return [] due to return refer always to a 'fun', so,
 // it will return [] when a 0 is found
