@@ -1,7 +1,8 @@
 package week3
 
-class Person(val name: String, age: Int)
 /*
+class Person(val name: String, age: Int)
+
 
 people.maxBy {it.age}
 people.maxBy(Person::age)
@@ -22,3 +23,4 @@ You can pass function references as a parameter, i.e
 
         listInt.filter(::isEven)
 
+*/
